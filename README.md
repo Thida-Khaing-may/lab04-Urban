@@ -47,3 +47,10 @@ Final lines kept:
 During the conflict resolution process, one member accidentally pulled the repository before properly resolving the conflict and then made changes, which caused the `README.md` to contain only that member's information. As a result, the team had to restart the process and repeat the conflict-resolution steps.
 
 Git could not resolve the conflict automatically because multiple team members had modified the same section of `README.md`. Git could detect that the versions were different, but it could not determine which members' lines should be kept, so the team had to manually resolve the conflicting changes. This is consistent with the lab's explanation that Git stops when changes overlap and it cannot determine which version should remain. 
+
+## Reflection Questions
+1. Why was your push rejected, and how did you fix it?
+The push was rejected because remote changes were pushed by a teammate while local work was being done, putting the local branch behind main. It was fixed by running git pull, resolving the merge conflicts in README.md, committing the resolved changes, and pushing again.
+
+2. Why could Git not resolve the README conflict automatically?
+Git could not resolve the conflict automatically because multiple team members edited the exact same lines in README.md simultaneously. Git stops when changes overlap in the same location because it cannot determine which version to keep without human intervention.
