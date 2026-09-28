@@ -49,8 +49,14 @@ During the conflict resolution process, one member accidentally pulled the repos
 Git could not resolve the conflict automatically because multiple team members had modified the same section of `README.md`. Git could detect that the versions were different, but it could not determine which members' lines should be kept, so the team had to manually resolve the conflicting changes. This is consistent with the lab's explanation that Git stops when changes overlap and it cannot determine which version should remain. 
 
 ## Reflection Questions
-1. Why was your push rejected, and how did you fix it?
+1. Why was your push rejected, and how did you fix it? 
 The push was rejected because remote changes were pushed by a teammate while local work was being done, putting the local branch behind main. It was fixed by running git pull, resolving the merge conflicts in README.md, committing the resolved changes, and pushing again.
 
-2. Why could Git not resolve the README conflict automatically?
+2. Why could Git not resolve the README conflict automatically? 
 Git could not resolve the conflict automatically because multiple team members edited the exact same lines in README.md simultaneously. Git stops when changes overlap in the same location because it cannot determine which version to keep without human intervention.
+
+3. What is the difference between committing and pushing? 
+Committing saves a local snapshot of staged changes to your local Git repository history, while pushing uploads those local commits to a remote repository on GitHub so collaborators can see them.
+
+4. How do fixtures reduce duplicated setup code in tests? 
+Fixtures allow common setup and teardown logic (such as initializing a test database or Bank object) to be written once and passed as arguments directly into test functions, eliminating boilerplate across test modules.
