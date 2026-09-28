@@ -46,17 +46,14 @@ Final lines kept:
 
 During the conflict resolution process, one member accidentally pulled the repository before properly resolving the conflict and then made changes, which caused the `README.md` to contain only that member's information. As a result, the team had to restart the process and repeat the conflict-resolution steps.
 
-<<<<<<< HEAD
-Git could not resolve the conflict automatically because multiple team members had modified the same section of `README.md`. Git could detect that the versions were different, but it could not determine which members' lines should be kept, so the team had to manually resolve the conflicting changes. This is consistent with the lab's explanation that Git stops when changes overlap and it cannot determine which version should remain. 
-=======
 Git could not resolve the conflict automatically because multiple team members had modified the same section of `README.md`. Git could detect that the versions were different, but it could not determine which members' lines should be kept, so the team had to manually resolve the conflicting changes. This is consistent with the lab's explanation that Git stops when changes overlap and it cannot determine which version should remain. 
 
 ## Git Contribution Summary
-    10  Thida-Khaing-may
-     9  KyawSanAlpha
-     8  lelouchlynx
-     6  Rowan10-uzzz
-     5  Toe Twel Tar Htut
+     10  Thida-Khaing-may
+     9  KyawSanAlpha  
+     8  lelouchlynx    
+     7  Toe Twel Tar Htut   
+     6  Rowan10-uzzz  
 
 ## Reflection Questions
 1. **Why was your push rejected, and how did you fix it?**
