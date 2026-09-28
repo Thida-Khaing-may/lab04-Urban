@@ -32,6 +32,7 @@ Toe Twel Tar Htut
 =======
 >>>>>>> 757bba87544c98e4fd3e1a03fdde57653a444a51
 >>>>>>> 757bba87544c98e4fd3e1a03fdde57653a444a51
+
 After resolving the conflict, we kept the information for all group members and added each member's name to the final `README.md`. 
 
 Final lines kept:
