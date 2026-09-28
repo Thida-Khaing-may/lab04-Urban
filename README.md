@@ -76,4 +76,3 @@ Committing saves a local snapshot of staged changes to your local Git repository
 
 
 Fixtures allow common setup and teardown logic (such as initializing a test database or Bank object) to be written once and passed as arguments directly into test functions, eliminating boilerplate across test modules.
->>>>>>> afe677e6de0386fd9fa1d1c371ea7eec043e10f2
